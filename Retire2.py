@@ -39,7 +39,7 @@ def read_basis_params(df):
     """"
     Expect BASIS sheet with first column=Parameter, second column=Value, optional third=Description.
     Returns ordered list of (param, value, description)
-    """"
+    """
     params = []
     if df is None or df.empty:
         return params
